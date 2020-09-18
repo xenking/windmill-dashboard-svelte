@@ -1,0 +1,41 @@
+{
+  "name": "windmill-dashboard-svelte",
+  "version": "1.0.0",
+  "description": "A multi theme, completely accessible, with components and pages examples, ready for production dashboard.",
+  "license": "MIT",
+  "homepage": "https://github.com/xenking/winmill-dashboard-svelte",
+
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/xenking/winmill-dashboard-svelte.git"
+  },
+  "scripts": {
+    "build": "rollup -c",
+    "dev": "rollup -c -w",
+    "start": "sirv public --single"
+  },
+  "devDependencies": {
+    "@fullhuman/postcss-purgecss": "^2.3.0",
+    "@rollup/plugin-commonjs": "^14.0.0",
+    "@rollup/plugin-node-resolve": "^8.0.0",
+    "@tailwindcss/custom-forms": "^0.2.1",
+    "color": "^3.1.2",
+    "cssnano": "^4.1.10",
+    "postcss": "^7.0.32",
+    "postcss-load-config": "^2.1.0",
+    "rollup": "^2.3.4",
+    "rollup-plugin-livereload": "^2.0.0",
+    "rollup-plugin-svelte": "^6.0.0",
+    "rollup-plugin-terser": "^7.0.0",
+    "svelte": "^3.0.0",
+    "svelte-persistent-store": "^0.1.4",
+    "svelte-preprocess": "^4.2.1",
+    "tailwindcss": "^1.8.9",
+    "tailwindcss-multi-theme": "^1.0.3",
+    "svelte-click-outside": "^1.0.0",
+    "tinro": "^0.3.5"
+  },
+  "dependencies": {
+    "sirv-cli": "^1.0.0"
+  }
+}
