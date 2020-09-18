@@ -13,10 +13,10 @@ All credits to the [Estevan Maito](https://github.com/estevanmaito) and the orig
 
 ## 🚀 Usage
 
-Clone [this](https://github.com/xenking/winmill-dashboard-svelte.git) repository and install dependencies
+Clone [this](https://github.com/xenking/windmill-dashboard-svelte.git) repository and install dependencies
 
 ```bash
-git clone https://github.com/xenking/winmill-dashboard-svelte.git
+git clone https://github.com/xenking/windmill-dashboard-svelte.git
 npm install
 ```
 
